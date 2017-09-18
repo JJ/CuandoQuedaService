@@ -7,6 +7,13 @@ tener Go instalado.
 
 	go get . 
 	
+O si se ha hecho algún cambio
+
+	go get -u github.com/JJ/HitosIV
+	
+Para actualizar
+
+
 ## Ejecutar
 
 Desde el mismo directorio,

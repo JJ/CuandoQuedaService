@@ -27,7 +27,7 @@ func main() {
 
 func dame_hitos(res http.ResponseWriter, req *http.Request) {
 	este_hito, _ := strconv.ParseInt(req.URL.Query().Get("hito"), 10, 0)
-	js,err := json.Marshal( HitosIV.Un_hito( int(este_hito) ) )
+	js,err := json.Marshal( HitosIV.Uno( uint(este_hito) ) )
 	if ( err != nil ) {
 		fmt.Fprintf( res, "Error %s", err )
 	} else {
