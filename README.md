@@ -3,6 +3,10 @@
 API para asignaturas, usable desde bots o por su cuenta. Necesita
 tener Go instalado.
 
+## Instalar dependencias
+
+	go get . 
+	
 ## Ejecutar
 
 Desde el mismo directorio,
